@@ -1,0 +1,29 @@
+h1. Usage
+
+h2. Markup
+
+bc. <ul class="gallery">
+    <li><a href="dog.jpg"><img src="dog-thumb.jpg" width="300" height="200"></a></li>
+    <li><a href="cat.jpg"><img src="cat-thumb.jpg" width="300" height="200"></a></li>
+    <li><a href="pig.jpg"><img src="pig-thumb.jpg" width="300" height="200"></a></li>
+    <li><a href="cow.jpg"><img src="cow-thumb.jpg" width="300" height="200"></a></li>
+</ul>
+
+h2. JavaScript
+
+@$('.gallery').skimming();@
+
+
+h1. Options
+
+@defaultIndex@
+
+@onDefaultIndexChange@
+
+@onIndexChange@
+
+@useSpaceToChangeDefaultIndex@
+
+@speed@
+
+_Defaults to_ @100@
